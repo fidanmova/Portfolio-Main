@@ -7,7 +7,7 @@ import Anime from "../assets/anime-2.jpg";
 
 const Projects = () => {
   return (
-    <div name="projects" className="w-full md:h-screen text-gray-300  bg-[#0a192f] mt-12">
+    <div name="projects" className="w-full md:h-screen text-gray-300  bg-[#0a192f]">
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-2">
@@ -154,7 +154,7 @@ const Projects = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider ">
-                DEVSHED
+                Lorem
               </span>
               <div className="pt-8 text-center">
                 <a href="/">
@@ -173,7 +173,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
-    </div>
+     </div>
   );
 };
 
