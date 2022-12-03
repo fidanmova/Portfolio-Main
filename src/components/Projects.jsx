@@ -1,9 +1,10 @@
 import React from "react";
 import Devshed from "../assets/devshed.jpg";
 import Chat from "../assets/chat.jpg";
-import Portfolio from "../assets/port.jpg";
+import Portfolio from "../assets/portfolio.jpg";
 import Bookstore from "../assets/bookstore.jpg";
 import Anime from "../assets/anime-2.jpg";
+import Port2 from "../assets/port2.jpg";
 
 const Projects = () => {
   return (
@@ -148,21 +149,21 @@ const Projects = () => {
           </div>
           {/* Project-6 */}
           <div
-            // style={{ backgroundImage: `url(${Portfolio})` }}
+            style={{ backgroundImage: `url(${Port2})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider ">
-                Lorem
+                Portfolio
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="/https://portfolio-tailwind-fidan.vercel.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="/https://github.com/fidanmova/Portfolio-Tailwind">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     {" "}
                     Code
