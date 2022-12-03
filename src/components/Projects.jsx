@@ -7,7 +7,7 @@ import Anime from "../assets/anime-2.jpg";
 
 const Projects = () => {
   return (
-    <div name="projects" className="w-full md:h-screen text-gray-300  bg-[#0a192f]">
+    <div name="projects" className="w-full md:h-screen text-gray-300  bg-[#0a192f]  mt-12">
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-2">
