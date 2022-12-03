@@ -22,12 +22,11 @@ const About = () => {
               I am a Full Stack Web Developer who newly-graduated a one year of
               intensive study in Full Stack web development of Digital Career
               Institute. Excited to improve my knowledge by seeking out new
-              technologies and staying up-to-date on trends in the industry. I
+              technologies and staying up-to-date on trends in the industry.
+              <p>
+              I
               am looking forward to build easy-to-use, user-friendly websites,
               and applications.
-              <p>
-                Seeking for a position to apply my experience and passion in web
-                development for finding creative solutions.
               </p>
             </p>
           </div>

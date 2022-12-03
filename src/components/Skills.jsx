@@ -19,7 +19,7 @@ const Skills = () => {
             {" "}
              Skills
           </p>
-          <p className="py-4"> These are the technologies I've worked with</p>
+          <p className="py-6"> These are the technologies I've worked with</p>
               </div>     
         {/* Icons Container */}
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
