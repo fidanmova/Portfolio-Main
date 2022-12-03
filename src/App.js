@@ -8,7 +8,7 @@ import Skills from "./components/Skills";
 
 function App() {
   return (
-    <div>
+    <div className=" bg-[#0a192f]">
       <Navbar />
       <Home />
       <About />
