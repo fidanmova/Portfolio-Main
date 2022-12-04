@@ -3,7 +3,6 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from 'react-scroll';
-
 import Logo from "../assets/logo.png";
 
 const Navbar = () => {
@@ -19,7 +18,8 @@ const Navbar = () => {
       </div>
       {/* Menu */}
       <ul className="hidden md:flex">
-        <li><Link to='home' smooth={true} duration={500}>
+        <li>
+          <Link to='home' smooth={true} duration={500}>
             Home
         </Link>
         </li>
@@ -72,7 +72,7 @@ const Navbar = () => {
           <li className="w-[180px] h-[80px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-900 ">
             <a
               className="flex justify-between items-center w-full text-gray-300 "
-              href="https://github.com/fidanmova"
+              href="https://www.linkedin.com/in/fidandev/"
             >
               {" "}
               Linkedin
