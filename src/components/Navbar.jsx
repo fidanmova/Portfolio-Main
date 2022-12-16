@@ -92,7 +92,7 @@ const Navbar = () => {
           <li className="w-[180px] h-[80px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300  bg-gray-500">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="https://github.com/fidanmova"
+              href="https://www.linkedin.com/in/fidandev/"
             >
               {" "}
               Email
@@ -102,7 +102,7 @@ const Navbar = () => {
           <li className="w-[180px] h-[80px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600 bg-pink-600">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="https://github.com/fidanmova"
+              href="https://www.linkedin.com/jobs/application-settings/"
             >
               {" "}
               Resume
